@@ -7,6 +7,8 @@ namespace OrderByProject
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.ForegroundColor = ConsoleColor.Black;
             string line = "Summer Tree      List   Auto Candy   Drug";
             Console.WriteLine(line);
             string[] Word = line.Split();
